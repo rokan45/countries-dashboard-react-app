@@ -1,0 +1,7 @@
+.country{
+    padding: 20px;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    text-align: start;
+    gap: 20px;
+}
