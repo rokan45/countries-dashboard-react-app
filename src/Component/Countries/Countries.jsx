@@ -8,7 +8,7 @@ const Countries = ({ countriesPromise }) => {
     // console.log(countries);
     return (
         <div>
-            <h2 style={{font:'bold'}}>Nations Of The World: {countries.length} </h2>
+            <h2 style={{fontSize:'larger',fontWeight:'bold',marginTop:'20px'}}>Nations Of The World: {countries.length} </h2>
             <div className='countries'>
                 {
                     countries.map(country =>
