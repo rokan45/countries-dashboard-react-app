@@ -5,3 +5,14 @@
     padding: 20px;
     
 }
+.visitedCountries{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid seagreen;
+    border-radius: 10px;
+    gap: 10px;
+}

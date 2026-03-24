@@ -2,17 +2,18 @@
 import { useState } from 'react';
 import './Country.css'
 
-const Country = ({ country }) => {
+const Country = ({ country, handleVisitCount }) => {
     // console.log(country.flags.flags.png);
     const imgObj = {
         "width": "300px",
         "height": "300px",
     }
 
-    const [visited, setVisited] = useState(false)
+    const [visited, setVisited] = useState(false);
 
     const handleVisitBtn = () => {
-        setVisited(visited ? false : true)
+        setVisited(visited ? false : true);
+        handleVisitCount(country);
     }
     return (
         <div className={`country ${visited?'vistied':'country'}`} >
